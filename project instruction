@@ -1,0 +1,25 @@
+Back End Developer Technical Test
+
+Project Stories:
+
+1.	Create APIs using Laravel for a news management application.
+2.	Use MySql as the database, create the file migrations using Laravel database migration.
+3.	Only admin can create, update, and delete the news.
+4.	One news has one image, admin can upload it along with the news creation (in creation form).
+5.	Use event & listener to create log in separate table when a news is created, updated, and deleted.
+6.	Make non-admin users can post comments to a news.
+7.	Use Redis for queuing the comment creation process.
+8.	Each API response has to use Laravel API Resource.
+9.	Make pagination for the news list API.
+10.	Create a get news detail API with posted comments.
+11.	Each API request is protected by OAuth 2.0, use Laravel Passport.
+
+Instructions:
+
+1.	Apply readable / clean code.
+2.	Apply Repository design pattern into the code.
+3.	Apply SOLID principles into the code.
+4.	Applying DDD design pattern is a big plus (Optional).
+5.	Create a Postman collection to store all API requests, generate a public link to share, and send by email
+6.	Create a new project in GitHub, or GitLab, Or BitBucket
+7.	Create how to install / deploy the project.

@@ -1,0 +1,21 @@
+*log fields :
+- ID *
+- Timestamp *
+- Event Type / Severity
+- User / Actor *
+- Source / Component
+- Message *
+- Details / Parameters
+- IP Address
+- User Agent
+- Session ID
+- Request / Response Data
+- Exception / Stack Trace
+
+================================================
+
+laravel event & listener :
+- bikin model & migration dulu
+- generate event, configure event
+- generate listener, configure listener (store data to database).
+- panggil event di controller, di proses transaksi
